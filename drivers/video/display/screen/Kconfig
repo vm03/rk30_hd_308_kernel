@@ -3,6 +3,8 @@ choice
 	prompt  "LCD Panel Select"
 config LCD_NULL
 	bool "NULL"
+config LCD_LP097QX1
+          bool "Display Port screen LP097QX1"
 
 config LCD_HDMI_800x480
 	depends on RK610_LVDS
@@ -116,5 +118,4 @@ config LCD_HV070WSA100
 config LCD_COMMON
 	bool "LCD COMMON"
 endchoice
-
 
